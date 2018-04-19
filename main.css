@@ -1,0 +1,45 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%
+    margin: 0;
+    
+}
+
+.masonry {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lemonchiffon;
+    flex-direction: row;
+    
+    
+
+}
+
+.img {
+    border-radius: 10%;
+    padding: 10px;
+    display: flex;
+}
+
+.main{
+    border: solid 2px black;
+    
+
+}
+
+@media {
+masonry img {
+    flex-direction: row;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+}
+}
+
+@media (min-width: 640px){
+    masonry img {
+        flex-direction: column;
+        flex-basis: 0;
+    }
+}
+
+
